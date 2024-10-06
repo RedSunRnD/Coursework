@@ -63,6 +63,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return String.format("ID: %d, ФИО: %s, Отдел: %d, Зарплата: %.2f", id, fullName, department, salary);
+        return String.format("ID: " + id + ", ФИО: " + fullName + ", Отдел: " + department + " Зарплата: " + salary + ".");
     }
 }
